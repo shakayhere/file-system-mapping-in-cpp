@@ -5,6 +5,8 @@ This repository contains a code which creates logical to physical mapping betwee
 Here's how it works. The code will ask the user to enter a starting block number. Say user enters 217. Our code will assume that 217 is the 0th logical block. So it will print all the physical blocks in order to their logical appearance. For example, the following will be a sample output of our code:
 
 ```
+Size of FAT Table is: 20
+
 Please enter the 0th physical block number : 217
 
 0:217
