@@ -1,5 +1,5 @@
 # Logical to Physical File System Mapping In C++
-This repository contains a code which creates logical to physical mapping between data blocks after reading a FAT table from a text file. An example fat table is stored in the 'input.txt'. The "-" means that file has ended here. Tested and worked on Ubuntu 18.04 LTS.
+This repository contains a code which creates logical to physical mapping between data blocks after reading a FAT table from a text file. An example fat table is stored in the `input.txt`. The "-" means that file has ended here. Tested and worked on Ubuntu 18.04 LTS.
 
 ## Getting Started
 Here's how it works. The code will ask the user to enter a starting block number. Say user enters 217. Our code will assume that 217 is the 0th logical block. So it will print all the physical blocks in order to their logical appearance. For example, the following will be a sample output of our code:
