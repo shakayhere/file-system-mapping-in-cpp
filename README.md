@@ -2,7 +2,15 @@
 This repository contains a code which creates logical to physical mapping between data blocks after reading a FAT table from a text file. An example fat table is stored in the `input.txt`. The "-" means that file has ended here. Tested and worked on Ubuntu 18.04 LTS.
 
 ## Getting Started
-Here's how it works. The code will ask the user to enter a starting block number. Say user enters 217. Our code will assume that 217 is the 0th logical block. So it will print all the physical blocks in order to their logical appearance. For example, the following will be a sample output of our code:
+Here's how it works. The code will ask the user to enter a starting block number. Say user enters 217. Our code will assume that 217 is the 0th logical block. So it will print all the physical blocks in order to their logical appearance. 
+
+<br />
+<p align="center">
+<img src="images/fat-table-image.jpg" alt="fat-table-image" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" text-align="center">
+</p>
+<br />
+
+The following is a dry run and sample output of our code:
 
 ```
 Size of FAT Table is: 20
