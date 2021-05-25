@@ -44,7 +44,7 @@ g++ --version
 ```
 
 ## How to Build and Install
-Just run `make` from the root of this repository. A binary called `exec.out` will be produced. To run this file, enter the following:
+Just run `make` from the root of this repository. A binary called `exec.out` will be produced. To run this file, enter the following in root folder:
 ```
 ./exec.out
 ```
