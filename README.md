@@ -28,7 +28,7 @@ Your file has 3 data blocks.
 You must have `g++` compiler and `make` installed on your system before testing.
 
 
-## Install 'g++' and 'make' on Ubuntu
+## Install g++ and make on Ubuntu
 Start by updating the packages list:
 ```
 sudo apt update
